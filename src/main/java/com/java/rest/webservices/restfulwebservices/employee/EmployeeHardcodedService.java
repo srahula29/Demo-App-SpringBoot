@@ -21,6 +21,7 @@ public class EmployeeHardcodedService {
 		employees.add(new Employee(++idCounter, "Anuradha", new Date(), "TESTING", "Tester"));
 		employees.add(new Employee(++idCounter, "Peter1", new Date(), "DOTNET", "Software Developer"));
 		employees.add(new Employee(++idCounter, "John", new Date(), "DATABASE", "DB Engineer"));
+		employees.add(new Employee(++idCounter, "Henk", new Date(), "React", "Manager"));
 
 	}
 
