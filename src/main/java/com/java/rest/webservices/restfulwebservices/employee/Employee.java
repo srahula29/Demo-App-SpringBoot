@@ -2,9 +2,17 @@ package com.java.rest.webservices.restfulwebservices.employee;
 
 import java.util.Date;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+@Entity
 public class Employee {
 
-	private long employeeId;
+	@Id
+	@GeneratedValue
+	private Long employeeId;
+	
 	private String employeeName;
 	private Date joiningDate;
 	private String technology;
@@ -23,11 +31,11 @@ public class Employee {
 		this.designation = designation;
 	}
 
-	public long getEmployeeId() {
+	public Long getEmployeeId() {
 		return employeeId;
 	}
 
-	public void setEmployeeId(long employeeId) {
+	public void setEmployeeId(Long employeeId) {
 		this.employeeId = employeeId;
 	}
 

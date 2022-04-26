@@ -12,7 +12,7 @@ public class EmployeeHardcodedService {
 
 	private static List<Employee> employees = new ArrayList<>();
 
-	private static int idCounter = 0;
+	private static long idCounter = 0;
 
 	static {
 
